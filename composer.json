@@ -1,0 +1,18 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WiseUsers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WiseUsers\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "respect/validation": "^2.2"
+    }
+}
